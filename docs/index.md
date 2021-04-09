@@ -1,10 +1,10 @@
 ---
 hero:
-  title: myblog
-  desc: myblog site example
-  actions:
-    - text: Getting Started
-      link: /components
+  title: 辽🚩
+  desc: 按国号，“辽”乃“镔铁”之意。化学式为Fe，展开即是Front End
+  # actions:
+  #   - text: 🏴
+  #     link: /components
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Feature 1
