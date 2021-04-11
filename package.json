@@ -1,7 +1,14 @@
 {
   "private": true,
+  "author": "AITuring",
   "name": "myblog",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AITuring/Liao.git",
+    "branch": "master",
+    "platform": "github"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
