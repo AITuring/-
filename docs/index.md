@@ -1,4 +1,8 @@
 ---
+gapless: true
+---
+<code src="./Home/index.jsx" inline/>
+<!-- ---
 hero:
   title: 辽🚩
   desc: 按国号，“辽”乃“镔铁”之意。化学式为Fe，展开即是Front End
@@ -25,7 +29,7 @@ features:
     title: Chrome
     # desc: Balabala
 
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+<!-- footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
 ## Hello myblog!
@@ -91,9 +95,9 @@ const App = () => {
       </div>
     </ConfigProvider>
   );
-};
+}; -->
 
-export default App;
+<!-- export default App;
 ```
 
 ```jsx
@@ -153,4 +157,4 @@ const App = () =>(
 )
 
 export default App;
-```
+``` --> 

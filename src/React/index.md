@@ -4,13 +4,11 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'myblog';
 import Slid from './Slid'
 
 export default () => {
   return (
     <div>
-      <Foo title="First Demo" />
       <Slid />
     </div>
   )
