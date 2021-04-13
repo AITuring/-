@@ -1,5 +1,7 @@
 ## React目录
 
+![](http://image-aituring.test.upcdn.net/dhx.gif)
+
 Demo:
 
 ```tsx

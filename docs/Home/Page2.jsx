@@ -1,7 +1,21 @@
 import React from 'react';
 import { OverPack } from 'rc-scroll-anim';
 import QueueAnim from 'rc-queue-anim';
-import { Button } from 'antd';
+import { Carousel } from 'antd';
+
+function onChange(a, b, c) {
+  console.log(a, b, c);
+}
+
+const contentStyle = {
+  height: '160px',
+  width: '400px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  background: '#364d79',
+  margin: '0 auto'
+};
 
 function Page2() {
   return (
@@ -29,21 +43,23 @@ function Page2() {
                 </span>
               </div>
             </div>
-            <p key="p2" className="page-content">
-              需要帮助？请先阅读
-              <a> 开发文档 </a>
-              和
-              <a> 常见问题 </a>， 如果未能解决，可以到 GitHub 上
-              <a href="https://github.com/ant-design/ant-design-pro/issues"> 进行提问 </a>。
-            </p>
-            <div key="button" style={{ marginTop: 88 }}>
-              <a href="http://github.com/ant-design/ant-design-pro" target="_blank" rel="noopener noreferrer">
-                <Button type="primary">下载 Pro</Button>
-              </a>
-            </div>
           </QueueAnim>
         </OverPack>
       </div>
+      <Carousel autoPlay>
+        <div>
+          <h3 style={contentStyle}>1</h3>
+        </div>
+        <div>
+          <h3 style={contentStyle}>2</h3>
+        </div>
+        <div>
+          <h3 style={contentStyle}>3</h3>
+        </div>
+        <div>
+          <h3 style={contentStyle}>4</h3>
+        </div>
+      </Carousel>
     </div>
   );
 }

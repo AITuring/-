@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import GitHubButton from 'react-github-button';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import { Button } from 'antd';
@@ -40,12 +39,6 @@ function Banner(props) {
           <Button style={{ margin: '0 16px' }} type="primary" ghost>
             开始使用
           </Button>
-          <GitHubButton
-            key="github-button"
-            type="stargazers"
-            namespace="ant-design"
-            repo="ant-design-pro"
-          />
         </div>
       </QueueAnim>
       {!props.isMobile && (
