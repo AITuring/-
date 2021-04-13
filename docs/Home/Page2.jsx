@@ -46,7 +46,7 @@ function Page2() {
           </QueueAnim>
         </OverPack>
       </div>
-      <Carousel autoPlay>
+      <Carousel autoplay>
         <div>
           <h3 style={contentStyle}>1</h3>
         </div>
