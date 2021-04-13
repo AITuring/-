@@ -30,7 +30,7 @@ class Home extends React.PureComponent {
     return (
       <DocumentTitle title="Ant Design - pro">
         <div>
-          <Header isMobile={this.state.isMobile} />
+          {/* <Header isMobile={this.state.isMobile} /> */}
           <div className="home-wrapper">
             <Banner isMobile={this.state.isMobile} />
             <Page1 isMobile={this.state.isMobile} />
