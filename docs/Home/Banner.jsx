@@ -26,11 +26,11 @@ function Banner(props) {
             style={{ transform: 'translateX(-64px)' }}
           />
         </div>
-        <h1 key="h1">ANT DESIGN PRO</h1>
+        <h1 key="h1">AITuring</h1>
         <p key="content">
-          开箱即用的中台前端/设计解决方案
+          💻 前端博客
         </p>
-        <div key="button" className="button-wrapper">
+        {/* <div key="button" className="button-wrapper">
           <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
             <Button type="primary">
               预览
@@ -39,7 +39,7 @@ function Banner(props) {
           <Button style={{ margin: '0 16px' }} type="primary" ghost>
             开始使用
           </Button>
-        </div>
+        </div> */}
       </QueueAnim>
       {!props.isMobile && (
         <TweenOne animation={{ opacity: 1 }} className="banner-image-wrapper">

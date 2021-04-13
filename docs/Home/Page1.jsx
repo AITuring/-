@@ -195,7 +195,7 @@ class Page1 extends React.PureComponent {
               Feature
             </Parallax>
           )}
-          <h2>What can <span>Pro</span> do for you </h2>
+          <h2>May the <span>Force</span> be with you !</h2>
           <div className="title-line-wrapper page1-line">
             <div className="title-line" />
           </div>

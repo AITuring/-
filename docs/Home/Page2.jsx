@@ -3,9 +3,6 @@ import { OverPack } from 'rc-scroll-anim';
 import QueueAnim from 'rc-queue-anim';
 import { Carousel } from 'antd';
 
-function onChange(a, b, c) {
-  console.log(a, b, c);
-}
 
 const contentStyle = {
   height: '160px',
