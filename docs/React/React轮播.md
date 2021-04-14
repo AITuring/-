@@ -12,3 +12,87 @@
 - `timer`计时器
 
 ### 创建 Carousel 类
+
+```js
+import React, { Component } from 'react';
+class Carousel extends Component {
+  constructor() {
+    super();
+    this.state = {
+      imgs: [
+        'http://image-aituring.test.upcdn.net/me.JPG',
+        'https://zos.alipayobjects.com/rmsportal/JFKAMfmPehWfhBPdCjrw.svg',
+        'https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg',
+        'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+      ], // 图片数组
+      showIndex: 0, //显示第几个图片
+      timer: null, // 定时器
+      show: false, // 前后按钮显示
+    };
+  }
+}
+
+export default Carousel;
+```
+
+### 关键函数
+
+#### `start`
+
+设置定时器 ⏲，更新`timer`
+
+```js
+start = () => {
+  //开始
+  let { timer } = this.state;
+  timer = setInterval(() => {
+    this.next();
+  }, 2000);
+  this.setState({
+    timer,
+  });
+};
+```
+
+#### `stop`
+
+停止计时器计数
+
+```js
+stop = () => {
+  //暂停
+  let { timer } = this.state;
+  clearInterval(timer);
+};
+```
+
+#### `change`
+
+点击改变当前轮播的 index
+
+```js
+change = index => {
+  //点击下面的按钮切换当前显示的图片
+  let { showIndex } = this.state;
+  showIndex = index;
+  this.setState({
+    showIndex,
+  });
+};
+```
+
+## 结果
+
+```jsx
+import React from 'react';
+import Slid from './Slid';
+import Carousel from './components/Carousel';
+
+export default () => {
+  return (
+    <div>
+      <Carousel />
+    </div>
+  );
+};
+```
