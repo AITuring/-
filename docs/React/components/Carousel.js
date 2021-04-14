@@ -62,7 +62,7 @@ class Carousel extends Component {
                 this.previous(e);
               }}
             >
-              《
+              {'<'}
             </span>
             <span
               className="right"
@@ -71,7 +71,7 @@ class Carousel extends Component {
                 this.next(e);
               }}
             >
-              》
+              {'>'}
             </span>
           </div>
         </div>
