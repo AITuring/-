@@ -1,4 +1,4 @@
-## React目录
+## React 目录
 
 ![](http://image-aituring.test.upcdn.net/dhx.gif)
 
@@ -6,14 +6,14 @@ Demo:
 
 ```tsx
 import React from 'react';
-import Slid from './Slid'
+import Slid from './Slid';
 
 export default () => {
   return (
     <div>
       <Slid />
     </div>
-  )
+  );
 };
 ```
 

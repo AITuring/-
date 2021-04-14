@@ -1,7 +1,7 @@
 {
   "private": true,
   "author": "AITuring",
-  "name": "myblog",
+  "name": "liao",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -42,8 +42,7 @@
     "rc-scroll-anim": "^2.7.6",
     "rc-tween-one": "^2.7.3",
     "react": "^16.12.0",
-    "react-document-title": "^2.0.3",
-    "react-github-button": "^0.1.11"
+    "react-document-title": "^2.0.3"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
