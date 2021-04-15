@@ -81,6 +81,58 @@ change = index => {
 };
 ```
 
+#### `previous`
+
+点击跳转前一张图片
+
+```js
+previous = e => {
+  //上一张
+  let ev = e || window.event;
+  let { showIndex, imgs } = this.state;
+  if (showIndex <= 0) {
+    showIndex = imgs.length - 1;
+  } else {
+    showIndex--;
+  }
+  this.setState({
+    showIndex,
+  });
+};
+```
+
+#### `next`
+
+点击跳转下一张图片
+
+```js
+next = (e) => { //下一张
+    let ev = e || window.event;
+    let {showIndex, imgs} = this.state;
+    if(showIndex >= imgs.length - 1){
+        showIndex = 0;
+    }else{
+        showIndex ++;
+    }
+    this.setState({
+        showIndex
+    }
+}
+```
+
+有了这些函数，基本流程也就完成了。还有就是在轮播图挂载到 DOM 开始计数，销毁时取消计时器。
+
+```js
+componentDidMount(){ //一开始自动播放
+    this.start();
+}
+componentWillUnmount() { //销毁前清除定时器
+    this.stop();
+}
+```
+
+以上就是一个简单的 react 轮播图。
+
 ## 结果
 
 ```jsx
