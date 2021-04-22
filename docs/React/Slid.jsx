@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Slider, Switch } from 'antd';
 // 由于 antd 组件的默认文案是英文，所以需要修改为中文
