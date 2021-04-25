@@ -10,12 +10,12 @@
 
 ```tsx
 import React from 'react';
-import Slid from './Slid';
+import Slide from './Slide';
 
 export default () => {
   return (
     <div>
-      <Slid />
+      <Slide />
     </div>
   );
 };
