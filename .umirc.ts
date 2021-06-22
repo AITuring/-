@@ -6,6 +6,12 @@ export default defineConfig({
   logo: 'http://image-aituring.test.upcdn.net/star.ico',
   outputPath: 'dist',
   mode: 'site',
-  locales: [['zh-CN', '中文'],['en-US', 'English']]
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
+  qiankun: {
+    slave: {},
+  },
   // more config: https://d.umijs.org/config
 });

@@ -21,6 +21,7 @@
     ]
   },
   "devDependencies": {
+    "@umijs/plugin-qiankun": "^2.25.0",
     "@umijs/test": "^3.0.5",
     "dumi": "^1.0.13",
     "father-build": "^1.17.2",
